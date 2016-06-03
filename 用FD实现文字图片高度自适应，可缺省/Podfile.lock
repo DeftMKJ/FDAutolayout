@@ -1,0 +1,15 @@
+PODS:
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - SDWebImage
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+COCOAPODS: 0.39.0
