@@ -13,6 +13,9 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    self.userName.preferredMaxLayoutWidth = [UIScreen mainScreen].bounds.size.width - 66;
+    self.descLabel.preferredMaxLayoutWidth = [UIScreen mainScreen].bounds.size.width - 20;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
